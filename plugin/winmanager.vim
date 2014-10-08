@@ -1062,6 +1062,7 @@ function! <SID>ToggleWindowsManager()
 		call s:CloseWindowsManager()
 	else
 		call s:StartWindowsManager()
+		exe 'q' "add this line by zhus
 	end
 endfunction
 
